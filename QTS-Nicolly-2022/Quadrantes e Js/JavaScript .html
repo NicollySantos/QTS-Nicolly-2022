@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <body>
+     <br/> <br/>
+
+        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Clique para disparar a data e a hora</button>
+ <br/> <br/>
+        <p id="demo"></p>
+        <script>
+            const c = ':)'
+            /*Definição CONST:*/
+            /*Constantes possuem a mesma finalidade no código, o valor de uma constante não pode ser alterado por uma atribuição, além de também não poder ser declaradO novamente, ou seja, seu valor é fixo.*/
+            if( true ){
+            /*Definição IF:*/
+            /*Uma condição é criada, podendo ela ser verdadeira u falsa.*/
+                var a = 'Olá,';
+            /*Definição VAR:*/
+            /* A finalidade de uma variável declarada como "var" no bloco depende de seu contexto atual, sendo que pode ser uma variável local (pode ser acessada apenas pela função na qual ela foi criada, a única a qual pertence) ou global (pode ser acessada em qualquer parte do seu arquivo Javascript, inclusive em outros arquivos e bibliotecas).*/
+            }
+            console.log(a);
+            
+
+            if( true ){            
+                let b = 'Somos Janine e Nicolly e estamos aprendendo sobre JavaScript!';
+            /*Definição LET:*/
+            /*LET permite que você consiga declarar variáveis delimitando sua finalidade no bloco, instrução, ou em uma expressão na qual ela é usada. è tido que LET é o contrário de VAR, que define uma variável globalmente ou na finalidade inteira de uma função, independentemente da finalidade de bloco.*/
+                console.log(b,c);
+
+            }
+
+            if( true ){
+                var a = '\nNeste arquivo,';
+            }
+            console.log(a);
+
+            if( true ){
+                let b = 'Iremos falar mais sobre o que aprendemos durante as aulas de Qualidade e Teste de Software sobre JavaScript!';
+                console.log(b,c);
+                /*Definção CONSOLE.LOG:*/
+                /*Imprime uma mensagem do código*/
+
+            }
+        </script>
+        <button onclick="document.getElementById('myImage').src='myImage/olhoaberto.jpg'">Abra os olhinhos</button>
+
+        <img id="myImage" src="myImage/olhofechado.png" style="width:100px">
+
+        <button onclick="document.getElementById('myImage').src='myImage/olhofechado.png'">Dê um a piscadinha de Dev</button>
+        <br/> <br/>
+        <button onclick="text()">Clique para abrir o texto escondido!</button>
+        <script>
+            function text() {
+            /*Definiçõa FUNCTION*/
+            /*A função é um "subprograma" que pode ser chamado como código externo (ou interno) à função. Uma função é composta por uma sequência de instruções próprias dela.*/
+            document.getElementById("demo").innerHTML = "Olá, somos Janine e Nicolly e estamos aprendendo sobre JavaScript! Neste arquivo, mostramos mais sobre o que aprendemos durante as aulas de Qualidade e Teste de Software sobre JavaScript!";
+            }
+    
+        </script>
+    </body>
+</html>
+
+
+
+
+
