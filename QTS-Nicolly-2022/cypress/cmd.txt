@@ -1,0 +1,21 @@
+AULA21102011
+ABRIR NO WINDOWS POWERSEHELL
+
+https://blog.onedaytesting.com.br/gherkin/
+https://docs.cypress.io/guides/getting-started/installing-cypress#npm-install
+
+PS C:\Users\CAMARGO> npx cypress open
+Need to install the following packages:
+  cypress
+Ok to proceed? (y) y
+Deseja finalizar o arquivo em lotes (S/N)? s
+PS C:\Users\CAMARGO> npx cypress open
+Need to install the following packages:
+  cypress
+Ok to proceed? (y) y
+It looks like this is your first time using Cypress: 10.10.0
+
+√  Verified Cypress! C:\Users\CAMARGO\AppData\Local\Cypress\Cache\10.10.0\Cypress
+
+Opening Cypress...
+
