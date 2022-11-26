@@ -1,0 +1,13 @@
+{
+    "viewportWidth": 1700,
+    "viewportHeight": 1000,
+    "defaultCommandTimeout": 8000,
+    "chromeWebSecurity": false,
+    "video": false,
+    "env": {
+        "url": "https://www.rahulshettyacademy.com/angularpractice/",
+        "examplePage": "https://www.rahulshettyacademy.com/seleniumPractise/#/"
+    },
+
+    "retries": 1
+}

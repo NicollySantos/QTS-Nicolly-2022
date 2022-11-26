@@ -1,0 +1,20 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy.run": "cypress run",
+    "cy.open": "cypress open",
+    "test": "node_modules\\.bin\\cypress run", 
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome"
+    
+  },
+  "author": "Tabby Toney Douglass",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^5.0.0",
+    "cypress-iframe": "^1.0.1"
+  }
+}
